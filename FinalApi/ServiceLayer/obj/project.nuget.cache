@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PDJ276iWIsFbYmztwyUhUeTZxT6hGlBXZRSCl2XM3o0hWvK402T2VgxFGrbecoo45bUq1eq+vDd8tnVB3xTPNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Desktop\\FinalProjects\\Turbo.az\\TurboBackEnd\\Api-Architect\\FinalApi\\ServiceLayer\\ServiceLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
