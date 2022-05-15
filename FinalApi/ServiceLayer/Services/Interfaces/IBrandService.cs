@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ServiceLayer.DTOs.Brand;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface IBrandService
     {
-        
+        Task CreateAsync(BrandDto brandDto);
     }
 }

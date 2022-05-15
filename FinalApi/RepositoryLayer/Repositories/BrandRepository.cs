@@ -12,7 +12,7 @@ namespace RepositoryLayer.Repositories
     {
         public BrandRepository(AppDbContext context) : base(context)
         {
-
+            
         }
     }
 }

@@ -14,7 +14,6 @@ namespace DomainLayer.Configrations
         public void Configure(EntityTypeBuilder<Model> builder)
         {
             builder.Property(m => m.Name).IsRequired().HasMaxLength(200);
-            builder.Property(m => m.Brand).IsRequired().HasMaxLength(200);
         }
 
        

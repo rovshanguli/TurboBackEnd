@@ -11,10 +11,6 @@ using Microsoft.OpenApi.Models;
 using RepositoryLayer;
 using ServiceLayer;
 using ServiceLayer.Mapping;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Api
 {
