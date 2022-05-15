@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using DomainLayer.Entities;
+using ServiceLayer.DTOs.Brand;
+using ServiceLayer.DTOs.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +14,8 @@ namespace ServiceLayer.Mapping
     {
         public MappingProfile()
         {
-
+            CreateMap<Brand, BrandDto>().ReverseMap();
+            CreateMap<Model, ModelDto>().ReverseMap();
         }
     }
 }

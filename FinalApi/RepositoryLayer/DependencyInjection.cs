@@ -14,7 +14,8 @@ namespace RepositoryLayer
         public static IServiceCollection AddRepositoryLayer(this IServiceCollection services)
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-           
+            services.AddScoped<IBrandRepository, BrandRepository>();
+          
 
             return services;
         }

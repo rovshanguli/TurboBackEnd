@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using ServiceLayer.Services;
+using ServiceLayer.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +13,7 @@ namespace ServiceLayer
     {
         public static IServiceCollection AddServiceLayer(this IServiceCollection services)
         {
-           
+            services.AddScoped<IBrandService, BrandService>();
             return services;
         }
     }
