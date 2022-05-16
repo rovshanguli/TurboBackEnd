@@ -11,6 +11,6 @@ namespace ServiceLayer.DTOs.Model
     {
         public string Name { get; set; }
         public int BrandId { get; set; }
-        public BrandDto Brand { get; set; }
+        public BrandCreateDto Brand { get; set; }
     }
 }

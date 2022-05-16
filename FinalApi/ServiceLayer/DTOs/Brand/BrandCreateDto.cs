@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer.DTOs.Brand
 {
-    public class BrandDto
+    public class BrandCreateDto
     {
-        public string Name { get; set; }
-        public List<ModelDto> Models { get; set; }
+        public string Name { get; set; }   
     }
 }

@@ -14,8 +14,9 @@ namespace ServiceLayer.Mapping
     {
         public MappingProfile()
         {
-            CreateMap<Brand, BrandDto>().ReverseMap();
-            CreateMap<Model, ModelDto>().ReverseMap();
+            //Brand Mappings Start
+            CreateMap<Brand, BrandCreateDto>().ReverseMap();
+            CreateMap<Brand, BrandGetDto>().ReverseMap();
         }
     }
 }

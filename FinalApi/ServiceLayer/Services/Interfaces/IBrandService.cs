@@ -9,6 +9,10 @@ namespace ServiceLayer.Services.Interfaces
 {
     public interface IBrandService
     {
-        Task CreateAsync(BrandDto brandDto);
+        Task CreateAsync(BrandCreateDto brandDto);
+        Task<List<BrandGetDto>> GetAllAsync();
+        Task<BrandGetDto> GetByIdAsync(int id);
+        Task SoftDeleteAsync(int id);
+        
     }
 }
